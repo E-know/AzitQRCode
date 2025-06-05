@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5646F53284CC553009A3119 /* Correct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5646F52284CC553009A3119 /* Correct.swift */; };
+		F5646F55284CDD04009A3119 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5646F54284CDD04009A3119 /* PopUpView.swift */; };
+		F5646F57284CF7BF009A3119 /* ListElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5646F56284CF7BF009A3119 /* ListElementView.swift */; };
+		F5646F59284D0929009A3119 /* UnAttendListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5646F58284D0929009A3119 /* UnAttendListView.swift */; };
+		F5646F5B284D21D9009A3119 /* UnknownPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5646F5A284D21D9009A3119 /* UnknownPersonView.swift */; };
+		F582B3FB2848165500C7930A /* Airtable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F582B3FA2848165500C7930A /* Airtable.swift */; };
+		F58B6BC1284BBD6200B9A1A1 /* AttendeesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58B6BC0284BBD6200B9A1A1 /* AttendeesModel.swift */; };
+		F5ADE2EC284DF0B8000F9AC3 /* wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5ADE2EB284DF0B8000F9AC3 /* wrong.mp3 */; };
+		F5ADE2EE284DF127000F9AC3 /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5ADE2ED284DF127000F9AC3 /* correct.mp3 */; };
+		F5CB277328466209003BEDE0 /* AzitQRCodeReceiverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CB277228466209003BEDE0 /* AzitQRCodeReceiverApp.swift */; };
+		F5CB277528466209003BEDE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CB277428466209003BEDE0 /* ContentView.swift */; };
+		F5CB27772846620A003BEDE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5CB27762846620A003BEDE0 /* Assets.xcassets */; };
+		F5CB277A2846620A003BEDE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5CB27792846620A003BEDE0 /* Preview Assets.xcassets */; };
+		F5DBE1222848E6B2005858BD /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = F5DBE1212848E6B2005858BD /* CodeScanner */; };
+		F5E657C02847DFA00039D226 /* AirtableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E657BF2847DFA00039D226 /* AirtableModel.swift */; };
+		F5E657C22847E2FD0039D226 /* UnGitFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E657C12847E2FD0039D226 /* UnGitFile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5646F52284CC553009A3119 /* Correct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Correct.swift; sourceTree = "<group>"; };
+		F5646F54284CDD04009A3119 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
+		F5646F56284CF7BF009A3119 /* ListElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListElementView.swift; sourceTree = "<group>"; };
+		F5646F58284D0929009A3119 /* UnAttendListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnAttendListView.swift; sourceTree = "<group>"; };
+		F5646F5A284D21D9009A3119 /* UnknownPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnknownPersonView.swift; sourceTree = "<group>"; };
+		F582B3FA2848165500C7930A /* Airtable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airtable.swift; sourceTree = "<group>"; };
+		F58B6BC0284BBD6200B9A1A1 /* AttendeesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendeesModel.swift; sourceTree = "<group>"; };
+		F5ADE2EB284DF0B8000F9AC3 /* wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrong.mp3; sourceTree = "<group>"; };
+		F5ADE2ED284DF127000F9AC3 /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = "<group>"; };
+		F5CB276F28466209003BEDE0 /* AzitQRCodeReceiver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzitQRCodeReceiver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CB277228466209003BEDE0 /* AzitQRCodeReceiverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzitQRCodeReceiverApp.swift; sourceTree = "<group>"; };
+		F5CB277428466209003BEDE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F5CB27762846620A003BEDE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5CB27792846620A003BEDE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5DBE11F2848DD65005858BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F5E657BF2847DFA00039D226 /* AirtableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirtableModel.swift; sourceTree = "<group>"; };
+		F5E657C12847E2FD0039D226 /* UnGitFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnGitFile.swift; sourceTree = "<group>"; };
+		F5E657C32847E3E70039D226 /* AzitQRCodeReceiver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AzitQRCodeReceiver.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5CB276C28466209003BEDE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DBE1222848E6B2005858BD /* CodeScanner in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5ADE2EA284DEFDC000F9AC3 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F5ADE2ED284DF127000F9AC3 /* correct.mp3 */,
+				F5ADE2EB284DF0B8000F9AC3 /* wrong.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		F5CB276628466209003BEDE0 = {
+			isa = PBXGroup;
+			children = (
+				F5CB277128466209003BEDE0 /* AzitQRCodeReceiver */,
+				F5CB277028466209003BEDE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5CB277028466209003BEDE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5CB276F28466209003BEDE0 /* AzitQRCodeReceiver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5CB277128466209003BEDE0 /* AzitQRCodeReceiver */ = {
+			isa = PBXGroup;
+			children = (
+				F5ADE2EA284DEFDC000F9AC3 /* Sounds */,
+				F5DBE11F2848DD65005858BD /* Info.plist */,
+				F5E657C32847E3E70039D226 /* AzitQRCodeReceiver.entitlements */,
+				F5CB277228466209003BEDE0 /* AzitQRCodeReceiverApp.swift */,
+				F5CB277428466209003BEDE0 /* ContentView.swift */,
+				F582B3FA2848165500C7930A /* Airtable.swift */,
+				F5E657BF2847DFA00039D226 /* AirtableModel.swift */,
+				F5CB27762846620A003BEDE0 /* Assets.xcassets */,
+				F5CB27782846620A003BEDE0 /* Preview Content */,
+				F5E657C12847E2FD0039D226 /* UnGitFile.swift */,
+				F58B6BC0284BBD6200B9A1A1 /* AttendeesModel.swift */,
+				F5646F52284CC553009A3119 /* Correct.swift */,
+				F5646F54284CDD04009A3119 /* PopUpView.swift */,
+				F5646F56284CF7BF009A3119 /* ListElementView.swift */,
+				F5646F58284D0929009A3119 /* UnAttendListView.swift */,
+				F5646F5A284D21D9009A3119 /* UnknownPersonView.swift */,
+			);
+			path = AzitQRCodeReceiver;
+			sourceTree = "<group>";
+		};
+		F5CB27782846620A003BEDE0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F5CB27792846620A003BEDE0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5CB276E28466209003BEDE0 /* AzitQRCodeReceiver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CB277D2846620A003BEDE0 /* Build configuration list for PBXNativeTarget "AzitQRCodeReceiver" */;
+			buildPhases = (
+				F5CB276B28466209003BEDE0 /* Sources */,
+				F5CB276C28466209003BEDE0 /* Frameworks */,
+				F5CB276D28466209003BEDE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AzitQRCodeReceiver;
+			packageProductDependencies = (
+				F5DBE1212848E6B2005858BD /* CodeScanner */,
+			);
+			productName = AzitQRCodeReceiver;
+			productReference = F5CB276F28466209003BEDE0 /* AzitQRCodeReceiver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5CB276728466209003BEDE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F5CB276E28466209003BEDE0 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = F5CB276A28466209003BEDE0 /* Build configuration list for PBXProject "AzitQRCodeReceiver" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5CB276628466209003BEDE0;
+			packageReferences = (
+				F5DBE1202848E6B2005858BD /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
+			productRefGroup = F5CB277028466209003BEDE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5CB276E28466209003BEDE0 /* AzitQRCodeReceiver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5CB276D28466209003BEDE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CB277A2846620A003BEDE0 /* Preview Assets.xcassets in Resources */,
+				F5ADE2EC284DF0B8000F9AC3 /* wrong.mp3 in Resources */,
+				F5CB27772846620A003BEDE0 /* Assets.xcassets in Resources */,
+				F5ADE2EE284DF127000F9AC3 /* correct.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5CB276B28466209003BEDE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58B6BC1284BBD6200B9A1A1 /* AttendeesModel.swift in Sources */,
+				F5646F59284D0929009A3119 /* UnAttendListView.swift in Sources */,
+				F5646F55284CDD04009A3119 /* PopUpView.swift in Sources */,
+				F5CB277528466209003BEDE0 /* ContentView.swift in Sources */,
+				F5E657C22847E2FD0039D226 /* UnGitFile.swift in Sources */,
+				F5646F53284CC553009A3119 /* Correct.swift in Sources */,
+				F5646F5B284D21D9009A3119 /* UnknownPersonView.swift in Sources */,
+				F5E657C02847DFA00039D226 /* AirtableModel.swift in Sources */,
+				F5CB277328466209003BEDE0 /* AzitQRCodeReceiverApp.swift in Sources */,
+				F582B3FB2848165500C7930A /* Airtable.swift in Sources */,
+				F5646F57284CF7BF009A3119 /* ListElementView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F5CB277B2846620A003BEDE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5CB277C2846620A003BEDE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5CB277E2846620A003BEDE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AzitQRCodeReceiver/AzitQRCodeReceiver.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AzitQRCodeReceiver/Preview Content\"";
+				DEVELOPMENT_TEAM = P2UJWPTGRX;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AzitQRCodeReceiver/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR코드 인식을 위해서 카메라를 사용합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.Toby.AzitQRCodeReceiver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Debug;
+		};
+		F5CB277F2846620A003BEDE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AzitQRCodeReceiver/AzitQRCodeReceiver.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AzitQRCodeReceiver/Preview Content\"";
+				DEVELOPMENT_TEAM = P2UJWPTGRX;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AzitQRCodeReceiver/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR코드 인식을 위해서 카메라를 사용합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.Toby.AzitQRCodeReceiver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5CB276A28466209003BEDE0 /* Build configuration list for PBXProject "AzitQRCodeReceiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CB277B2846620A003BEDE0 /* Debug */,
+				F5CB277C2846620A003BEDE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5CB277D2846620A003BEDE0 /* Build configuration list for PBXNativeTarget "AzitQRCodeReceiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CB277E2846620A003BEDE0 /* Debug */,
+				F5CB277F2846620A003BEDE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F5DBE1202848E6B2005858BD /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F5DBE1212848E6B2005858BD /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5DBE1202848E6B2005858BD /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F5CB276728466209003BEDE0 /* Project object */;
+}

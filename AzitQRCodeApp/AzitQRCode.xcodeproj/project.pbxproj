@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5297AFF283F134A00ACA590 /* Azit20220606App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5297AFE283F134A00ACA590 /* Azit20220606App.swift */; };
+		F5297B03283F134B00ACA590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5297B02283F134B00ACA590 /* Assets.xcassets */; };
+		F5297B06283F134B00ACA590 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5297B05283F134B00ACA590 /* Preview Assets.xcassets */; };
+		F5297B0B283F134B00ACA590 /* Azit20220606.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = F5297AFC283F134A00ACA590 /* Azit20220606.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F5297B18283F14A300ACA590 /* SelectTshirt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5297B17283F14A300ACA590 /* SelectTshirt.swift */; };
+		F5297B1A283F14B600ACA590 /* QRCodeClipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5297B19283F14B600ACA590 /* QRCodeClipView.swift */; };
+		F53EC3D1283F15BD000EDB42 /* Azit20220606ClipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53EC3D0283F15BD000EDB42 /* Azit20220606ClipView.swift */; };
+		F591BF5B283D353D001C8C51 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F591BF5A283D353D001C8C51 /* QRCodeView.swift */; };
+		F591BF75283D42D7001C8C51 /* SelectTshirt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AF46EB283D1F4000FBD73D /* SelectTshirt.swift */; };
+		F591BF7B283E4C1B001C8C51 /* CreditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F591BF7A283E4C1B001C8C51 /* CreditView.swift */; };
+		F591BF7D283EA069001C8C51 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F591BF7C283EA069001C8C51 /* ViewModifiers.swift */; };
+		F5AF46E9283D113500FBD73D /* Azit20220606View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AF46E8283D113500FBD73D /* Azit20220606View.swift */; };
+		F5B92953283D07A1009B6C2D /* AzitQRCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B92952283D07A1009B6C2D /* AzitQRCodeApp.swift */; };
+		F5B92955283D07A1009B6C2D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B92954283D07A1009B6C2D /* MainView.swift */; };
+		F5B92957283D07A3009B6C2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5B92956283D07A3009B6C2D /* Assets.xcassets */; };
+		F5B9295A283D07A3009B6C2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5B92959283D07A3009B6C2D /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5297B09283F134B00ACA590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5B92947283D07A1009B6C2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5297AFB283F134A00ACA590;
+			remoteInfo = Azit20220606;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F591BF73283D42B2001C8C51 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				F5297B0B283F134B00ACA590 /* Azit20220606.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F5297AFC283F134A00ACA590 /* Azit20220606.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Azit20220606.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5297AFE283F134A00ACA590 /* Azit20220606App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Azit20220606App.swift; sourceTree = "<group>"; };
+		F5297B02283F134B00ACA590 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5297B05283F134B00ACA590 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5297B07283F134B00ACA590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5297B08283F134B00ACA590 /* Azit20220606.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Azit20220606.entitlements; sourceTree = "<group>"; };
+		F5297B17283F14A300ACA590 /* SelectTshirt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTshirt.swift; sourceTree = "<group>"; };
+		F5297B19283F14B600ACA590 /* QRCodeClipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeClipView.swift; sourceTree = "<group>"; };
+		F53EC3D0283F15BD000EDB42 /* Azit20220606ClipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Azit20220606ClipView.swift; sourceTree = "<group>"; };
+		F5732BE1283FB4B100AF48B1 /* AzitQRCode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AzitQRCode.entitlements; sourceTree = "<group>"; };
+		F591BF5A283D353D001C8C51 /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		F591BF7A283E4C1B001C8C51 /* CreditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditView.swift; sourceTree = "<group>"; };
+		F591BF7C283EA069001C8C51 /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		F5AF46E8283D113500FBD73D /* Azit20220606View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Azit20220606View.swift; sourceTree = "<group>"; };
+		F5AF46EB283D1F4000FBD73D /* SelectTshirt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTshirt.swift; sourceTree = "<group>"; };
+		F5B9294F283D07A1009B6C2D /* AzitQRCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzitQRCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B92952283D07A1009B6C2D /* AzitQRCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzitQRCodeApp.swift; sourceTree = "<group>"; };
+		F5B92954283D07A1009B6C2D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F5B92956283D07A3009B6C2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5B92959283D07A3009B6C2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5297AF9283F134A00ACA590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B9294C283D07A1009B6C2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5297AFD283F134A00ACA590 /* Azit20220606 */ = {
+			isa = PBXGroup;
+			children = (
+				F5297AFE283F134A00ACA590 /* Azit20220606App.swift */,
+				F53EC3D0283F15BD000EDB42 /* Azit20220606ClipView.swift */,
+				F5297B02283F134B00ACA590 /* Assets.xcassets */,
+				F5297B07283F134B00ACA590 /* Info.plist */,
+				F5297B08283F134B00ACA590 /* Azit20220606.entitlements */,
+				F5297B04283F134B00ACA590 /* Preview Content */,
+				F5297B17283F14A300ACA590 /* SelectTshirt.swift */,
+				F5297B19283F14B600ACA590 /* QRCodeClipView.swift */,
+			);
+			path = Azit20220606;
+			sourceTree = "<group>";
+		};
+		F5297B04283F134B00ACA590 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F5297B05283F134B00ACA590 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5AF46EA283D1E9300FBD73D /* Azit20220606 */ = {
+			isa = PBXGroup;
+			children = (
+				F5AF46E8283D113500FBD73D /* Azit20220606View.swift */,
+				F5AF46EB283D1F4000FBD73D /* SelectTshirt.swift */,
+				F591BF5A283D353D001C8C51 /* QRCodeView.swift */,
+			);
+			path = Azit20220606;
+			sourceTree = "<group>";
+		};
+		F5B92946283D07A1009B6C2D = {
+			isa = PBXGroup;
+			children = (
+				F5B92951283D07A1009B6C2D /* AzitQRCode */,
+				F5297AFD283F134A00ACA590 /* Azit20220606 */,
+				F5B92950283D07A1009B6C2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5B92950283D07A1009B6C2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5B9294F283D07A1009B6C2D /* AzitQRCode.app */,
+				F5297AFC283F134A00ACA590 /* Azit20220606.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5B92951283D07A1009B6C2D /* AzitQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				F5732BE1283FB4B100AF48B1 /* AzitQRCode.entitlements */,
+				F5B92952283D07A1009B6C2D /* AzitQRCodeApp.swift */,
+				F591BF7A283E4C1B001C8C51 /* CreditView.swift */,
+				F5B92954283D07A1009B6C2D /* MainView.swift */,
+				F5AF46EA283D1E9300FBD73D /* Azit20220606 */,
+				F5B92956283D07A3009B6C2D /* Assets.xcassets */,
+				F5B92958283D07A3009B6C2D /* Preview Content */,
+				F591BF7C283EA069001C8C51 /* ViewModifiers.swift */,
+			);
+			path = AzitQRCode;
+			sourceTree = "<group>";
+		};
+		F5B92958283D07A3009B6C2D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F5B92959283D07A3009B6C2D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5297AFB283F134A00ACA590 /* Azit20220606 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5297B0C283F134B00ACA590 /* Build configuration list for PBXNativeTarget "Azit20220606" */;
+			buildPhases = (
+				F5297AF8283F134A00ACA590 /* Sources */,
+				F5297AF9283F134A00ACA590 /* Frameworks */,
+				F5297AFA283F134A00ACA590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Azit20220606;
+			productName = Azit20220606;
+			productReference = F5297AFC283F134A00ACA590 /* Azit20220606.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
+		F5B9294E283D07A1009B6C2D /* AzitQRCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B9295D283D07A3009B6C2D /* Build configuration list for PBXNativeTarget "AzitQRCode" */;
+			buildPhases = (
+				F5B9294B283D07A1009B6C2D /* Sources */,
+				F5B9294C283D07A1009B6C2D /* Frameworks */,
+				F5B9294D283D07A1009B6C2D /* Resources */,
+				F591BF73283D42B2001C8C51 /* Embed App Clips */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5297B0A283F134B00ACA590 /* PBXTargetDependency */,
+			);
+			name = AzitQRCode;
+			productName = AzitQRCode;
+			productReference = F5B9294F283D07A1009B6C2D /* AzitQRCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5B92947283D07A1009B6C2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F5297AFB283F134A00ACA590 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					F5B9294E283D07A1009B6C2D = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = F5B9294A283D07A1009B6C2D /* Build configuration list for PBXProject "AzitQRCode" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5B92946283D07A1009B6C2D;
+			productRefGroup = F5B92950283D07A1009B6C2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5B9294E283D07A1009B6C2D /* AzitQRCode */,
+				F5297AFB283F134A00ACA590 /* Azit20220606 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5297AFA283F134A00ACA590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5297B06283F134B00ACA590 /* Preview Assets.xcassets in Resources */,
+				F5297B03283F134B00ACA590 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B9294D283D07A1009B6C2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B9295A283D07A3009B6C2D /* Preview Assets.xcassets in Resources */,
+				F5B92957283D07A3009B6C2D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5297AF8283F134A00ACA590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53EC3D1283F15BD000EDB42 /* Azit20220606ClipView.swift in Sources */,
+				F5297B1A283F14B600ACA590 /* QRCodeClipView.swift in Sources */,
+				F5297B18283F14A300ACA590 /* SelectTshirt.swift in Sources */,
+				F5297AFF283F134A00ACA590 /* Azit20220606App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B9294B283D07A1009B6C2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F591BF75283D42D7001C8C51 /* SelectTshirt.swift in Sources */,
+				F591BF7D283EA069001C8C51 /* ViewModifiers.swift in Sources */,
+				F591BF7B283E4C1B001C8C51 /* CreditView.swift in Sources */,
+				F5B92955283D07A1009B6C2D /* MainView.swift in Sources */,
+				F5AF46E9283D113500FBD73D /* Azit20220606View.swift in Sources */,
+				F591BF5B283D353D001C8C51 /* QRCodeView.swift in Sources */,
+				F5B92953283D07A1009B6C2D /* AzitQRCodeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5297B0A283F134B00ACA590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5297AFB283F134A00ACA590 /* Azit20220606 */;
+			targetProxy = F5297B09283F134B00ACA590 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F5297B0D283F134B00ACA590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Azit20220606/Azit20220606.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Azit20220606/Preview Content\"";
+				DEVELOPMENT_TEAM = P2UJWPTGRX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Azit20220606/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AzitQRCode;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.3;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.Toby.AzitQRCode.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F5297B0E283F134B00ACA590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Azit20220606/Azit20220606.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Azit20220606/Preview Content\"";
+				DEVELOPMENT_TEAM = P2UJWPTGRX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Azit20220606/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AzitQRCode;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.3;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.Toby.AzitQRCode.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F5B9295B283D07A3009B6C2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG APPCLIP";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5B9295C283D07A3009B6C2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = APPCLIP;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5B9295E283D07A3009B6C2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AzitQRCode/AzitQRCode.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AzitQRCode/Preview Content\"";
+				DEVELOPMENT_TEAM = P2UJWPTGRX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.3;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.Toby.AzitQRCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F5B9295F283D07A3009B6C2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AzitQRCode/AzitQRCode.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AzitQRCode/Preview Content\"";
+				DEVELOPMENT_TEAM = P2UJWPTGRX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.3;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.Toby.AzitQRCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5297B0C283F134B00ACA590 /* Build configuration list for PBXNativeTarget "Azit20220606" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5297B0D283F134B00ACA590 /* Debug */,
+				F5297B0E283F134B00ACA590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B9294A283D07A1009B6C2D /* Build configuration list for PBXProject "AzitQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B9295B283D07A3009B6C2D /* Debug */,
+				F5B9295C283D07A3009B6C2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B9295D283D07A3009B6C2D /* Build configuration list for PBXNativeTarget "AzitQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B9295E283D07A3009B6C2D /* Debug */,
+				F5B9295F283D07A3009B6C2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5B92947283D07A1009B6C2D /* Project object */;
+}
